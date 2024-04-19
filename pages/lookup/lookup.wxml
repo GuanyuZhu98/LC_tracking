@@ -1,0 +1,11 @@
+<!--pages/lookup/lookup.wxml-->
+<view class="InputSNNum" style="flex:1;height:100px">
+  <input bindinput="getInputSN" type="number" maxlength="9" placeholder="请输入锅SN号"></input>
+</view> 
+
+<button bindtap="ScanQRCode" disabled = "{{!auth}}">扫描</button>
+<button type="primary" bindtap="lookup" disabled="{{!auth}}">查询</button>
+
+<view hidden="{{auth}}">
+  <button type="primary" bindtap="ScanCode">申请权限</button>
+</view>

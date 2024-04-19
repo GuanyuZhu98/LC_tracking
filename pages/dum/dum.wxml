@@ -1,0 +1,7 @@
+<!--pages/dum/dum.wxml-->
+<swiper indicator-dot="true">
+<swiper-item><text>大家好</text></swiper-item>
+<swiper-item><text>大家好</text></swiper-item>
+</swiper>
+
+<button bindtap='getPotInfo'>大家好</button>
