@@ -1,0 +1,41 @@
+/* pages/record/record.wxss */
+.mainBox{
+  width:100%;
+  background-color: #ffffff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.ProcedureBox{
+  height: 860rpx;
+  width:87%;
+  background-color: #241a1a3a;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.block{
+  height:30rpx;
+  width:100%;
+  background-color: #ffffff;
+}
+.batch-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.batch-input {
+  flex: 1;
+}
+
+.divider {
+  margin: 0 10px;
+}
+
+.upload_button{
+  display:block;
+  margin-top:110rpx;
+  font-size: smaller;
+}
