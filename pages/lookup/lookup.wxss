@@ -1,6 +1,0 @@
-/* pages/lookup/lookup.wxss */
-.InputSNNum{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
